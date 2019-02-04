@@ -13,8 +13,6 @@ namespace SalesWebMVC
     public class Program
     {
 
-        int a = 5;
-
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
