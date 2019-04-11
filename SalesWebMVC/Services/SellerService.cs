@@ -46,7 +46,7 @@ namespace SalesWebMVC.Services
         {
             if(!_context.Seller.Any(x => x.Id == obj.Id))
             {
-                throw new DllNotFoundException("Id not found");
+                throw new NotFoundException("Id not found");
             }
             try
             {
